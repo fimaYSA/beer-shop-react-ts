@@ -1,8 +1,7 @@
 function App() {
-
   return (
     <>
-      <div className='border-b w-20 h-20 text-3xl text-center bg-yellow-100 text-cyan-800 rotate-45 mx-3 py-5'>
+      <div className='mx-3 h-20 w-20 rotate-45 border-b bg-yellow-100 py-5 text-center text-3xl text-cyan-800'>
         hi
       </div>
     </>
