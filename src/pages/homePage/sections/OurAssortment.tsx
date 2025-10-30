@@ -16,7 +16,7 @@ export function OurAssortment() {
         >
           {assortment.svgArray.map((el) => {
             return (
-              <div className='w-48 h-47 flex flex-col gap-6 items-center justify-end'>
+              <div className='w-48 h-47 flex flex-col gap-6 items-center justify-end' key={el.name}>
                 <img src={el.svgImg} alt={el.name} />
                 <div className='text-white text-2xl font-medium'>{el.name}</div>
               </div>
