@@ -9,7 +9,7 @@ export function OurAssortment() {
     >
       <div className='h-full bg-[#292929]/60'>
         <div className='pt-11'>
-          <TitleSection title={assortment.title} color={'#FFF'} position='center' />
+          <TitleSection title={assortment.title} color={'#FFF'} position='center' fill='#FDCF55' />
         </div>
         <div
           className='mx-auto w-170 h-113 flex gap-x-12 flex-wrap justify-center content-around mt-6'
