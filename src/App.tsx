@@ -1,13 +1,10 @@
+import { HomePage } from './pages/homePage/HomePage.tsx'
+
 function App() {
   return (
-    <>
-      <div
-        className='mx-3 h-20 w-20 rotate-45 border-b bg-yellow-100 py-5 text-center text-3xl
-          text-cyan-800'
-      >
-        hi
-      </div>
-    </>
+    <div className='max-w-480 mx-auto'>
+      <HomePage />
+    </div>
   )
 }
 
