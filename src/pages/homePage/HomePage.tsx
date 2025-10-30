@@ -1,10 +1,9 @@
-import { Slider } from '../../components/Slider.tsx'
+import { SliderSection } from './sections/SliderSection.tsx'
 
 export function HomePage() {
   return (
     <main>
-      <Slider />
+      <SliderSection />
     </main>
   )
 }
-

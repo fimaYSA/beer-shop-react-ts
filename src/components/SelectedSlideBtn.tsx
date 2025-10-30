@@ -5,8 +5,7 @@ type OwnPropsT = {
 
 export function SelectedSlideBtn({ selectedID, onClick }: OwnPropsT) {
   return (
-    <div className='flex gap-[10px] h-[21px] w-[63px] items-center justify-center mt-[80px]
-      mb-[55px]'>
+    <div className='flex gap-[10px] h-[21px] items-center'>
       {[1, 2, 3].map((el) => {
         return (
           <div
