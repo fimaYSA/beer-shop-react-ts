@@ -1,7 +1,7 @@
 type OwnPropsT = {
   rotate?: number
-  isActive: boolean
-  onClick: () => void
+  isActive?: boolean
+  onClick?: () => void
 }
 
 export function SliderBtn({ onClick, isActive, rotate = 0 }: OwnPropsT) {

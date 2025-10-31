@@ -3,6 +3,7 @@ import { OurAssortment } from './sections/OurAssortment.tsx'
 import { WhyUs } from './sections/WhyUs.tsx'
 import { AboutCompany } from './sections/AboutCompany.tsx'
 import { Services } from './sections/Services.tsx'
+import { NewBeer } from './sections/NewBeer.tsx'
 
 export function HomePage() {
   return (
@@ -12,6 +13,7 @@ export function HomePage() {
       <WhyUs />
       <AboutCompany />
       <Services />
+      <NewBeer />
     </main>
   )
 }
