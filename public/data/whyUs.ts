@@ -1,6 +1,9 @@
 export const whyUs = {
   title: 'Почему мы',
-  background: '/images/background/paper_BG.svg',
+  background: {
+    paper_BG: '/images/background/paper_BG.svg',
+    hop_parallax_BG: '/images/background/hop_parallax_BG.jpg'
+  },
   itemsArr: [
     {
       title: 'Отборный солод',
