@@ -1,4 +1,5 @@
 import { Slider } from '../../../components/Slider.tsx'
+import { MainButton } from '../../../components/MainButton.tsx'
 
 export function SliderSection() {
   return (
@@ -17,9 +18,7 @@ export function SliderSection() {
           Московской области можно на выгодных условиях, а главное, будучи уверенным в отличных
           вкусовых характеристиках!
         </p>
-        <button className='w-64 h-13 rounded-full bg-[#FDCF55] text-black text-base'>
-          Перейти в каталог
-        </button>
+        <MainButton title={'Перейти в каталог'} />
       </div>
 
       <div className='w-30 flex flex-col items-center absolute bottom-11 left-1/2 -translate-x-1/2'>
