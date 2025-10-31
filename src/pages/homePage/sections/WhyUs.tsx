@@ -29,11 +29,13 @@ export function WhyUs() {
       </section>
       <div
         style={{ backgroundImage: `url(${whyUs.background.hop_parallax_BG})` }}
-        className='h-65 w-full flex justify-center items-center bg-no-repeat bg-center'
+        className='h-65 bg-no-repeat bg-center'
       >
-        <p className='text-[40px] text-white font-medium max-w-128 text-center'>
-          “Чудесное пиво, для замечательных людей”
-        </p>
+        <div className='h-full bg-black/40 flex justify-center items-center'>
+          <p className='text-[40px] text-white font-medium max-w-128 text-center'>
+            “Чудесное пиво, для замечательных людей”
+          </p>
+        </div>
       </div>
     </>
   )
