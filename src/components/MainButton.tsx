@@ -21,7 +21,7 @@ export function MainButton({
         backgroundColor: bgColor,
         color: textColor,
       }}
-      className='rounded-full text-base'
+      className='rounded-full text-base font-medium flex justify-center items-center'
     >
       {title}
     </button>
