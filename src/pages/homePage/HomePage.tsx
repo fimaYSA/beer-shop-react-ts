@@ -6,6 +6,7 @@ import { Services } from './sections/Services.tsx'
 import { NewBeer } from './sections/NewBeer.tsx'
 import { OurPartners } from './sections/OurPartners.tsx'
 import { News } from '../../components/News.tsx'
+import { Footer } from '../../components/Footer.tsx'
 
 export function HomePage() {
   return (
@@ -18,6 +19,7 @@ export function HomePage() {
       <NewBeer />
       <OurPartners />
       <News />
+      <Footer />
     </main>
   )
 }
