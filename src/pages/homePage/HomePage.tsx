@@ -5,6 +5,7 @@ import { AboutCompany } from './sections/AboutCompany.tsx'
 import { Services } from './sections/Services.tsx'
 import { NewBeer } from './sections/NewBeer.tsx'
 import { OurPartners } from './sections/OurPartners.tsx'
+import { News } from '../../components/News.tsx'
 
 export function HomePage() {
   return (
@@ -16,6 +17,7 @@ export function HomePage() {
       <Services />
       <NewBeer />
       <OurPartners />
+      <News />
     </main>
   )
 }
