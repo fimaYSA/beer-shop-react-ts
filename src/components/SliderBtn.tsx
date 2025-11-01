@@ -8,7 +8,7 @@ export function SliderBtn({ onClick, isActive, rotate = 0 }: OwnPropsT) {
   return (
     <button disabled={!isActive}>
       <svg
-        className={`rotate-${rotate}`}
+        style={{transform: `rotate(${rotate}deg)`}}
         onClick={onClick}
         width='23'
         height='19'
