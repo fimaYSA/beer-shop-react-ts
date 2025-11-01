@@ -13,8 +13,8 @@ export function OurPartners() {
       <div className='flex gap-57.75'>
         {ourPartnersData.partners.map((p, i) => {
           return (
-            <div className='size-37.25 flex justify-center items-center'>
-              <img key={i} src={p.src} alt='' />
+            <div key={i} className='size-37.25 flex justify-center items-center'>
+              <img src={p.src} alt='' />
             </div>
           )
         })}
