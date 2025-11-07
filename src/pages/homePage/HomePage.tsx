@@ -7,10 +7,12 @@ import { NewBeer } from './sections/NewBeer.tsx'
 import { OurPartners } from './sections/OurPartners.tsx'
 import { News } from '../../components/News.tsx'
 import { Footer } from '../../components/Footer.tsx'
+import { Header } from '../../components/Header.tsx'
 
 export function HomePage() {
   return (
-    <main>
+    <main className='relative'>
+      <Header />
       <SliderSection />
       <OurAssortment />
       <WhyUs />
