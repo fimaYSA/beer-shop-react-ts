@@ -1,5 +1,5 @@
-import { Header } from '../Header.tsx'
-import { Footer } from '../Footer.tsx'
+import { Header } from '../ui/Header.tsx'
+import { Footer } from '../ui/Footer.tsx'
 import type { ReactElement } from 'react'
 
 type Props = {

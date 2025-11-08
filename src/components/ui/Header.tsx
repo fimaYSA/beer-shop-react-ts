@@ -1,8 +1,8 @@
 import { Logo } from './Logo.tsx'
-import { SocialMedia } from './SocialMedia.tsx'
+import { SocialMedia } from '../SocialMedia.tsx'
 import { Nav } from './Nav.tsx'
-import { Cart } from './Cart.tsx'
-import { Search } from './Search.tsx'
+import { Cart } from '../Cart.tsx'
+import { Search } from '../inputs/Search.tsx'
 
 export function Header() {
   return (
