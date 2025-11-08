@@ -1,7 +1,7 @@
-import { TitleSection } from '../../../components/TitleSection.tsx'
-import { whyUs } from '../../../../public/data/whyUs.ts'
+import { TitleSection } from '../../components/TitleSection.tsx'
+import { whyUs } from '../../../public/data/whyUs.ts'
 
-export function WhyUs() {
+export function SectionWhyUs() {
   return (
     <>
       <section

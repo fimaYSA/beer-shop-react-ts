@@ -1,9 +1,9 @@
-import { whyUs } from '../../../../public/data/whyUs.ts'
-import { SliderBtn } from '../../../components/SliderBtn.tsx'
-import { TitleSection } from '../../../components/TitleSection.tsx'
-import { ourPartnersData } from '../../../../public/data/ourPartners.ts'
+import { whyUs } from '../../../public/data/whyUs.ts'
+import { SliderBtn } from '../../components/SliderBtn.tsx'
+import { TitleSection } from '../../components/TitleSection.tsx'
+import { ourPartnersData } from '../../../public/data/ourPartners.ts'
 
-export function OurPartners() {
+export function SectionPartners() {
   return (
     <section
       className='h-92.5 bg-no-repeat bg-center relative flex flex-col items-center gap-12'

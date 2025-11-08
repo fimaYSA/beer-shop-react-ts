@@ -1,7 +1,7 @@
-import { whyUs } from '../../../../public/data/whyUs.ts'
-import { TitleSection } from '../../../components/TitleSection.tsx'
+import { whyUs } from '../../../public/data/whyUs.ts'
+import { TitleSection } from '../../components/TitleSection.tsx'
 import { useEffect, useState } from 'react'
-import { MainButton } from '../../../components/MainButton.tsx'
+import { MainButton } from '../../components/MainButton.tsx'
 
 type DataType = {
   title: string
@@ -17,7 +17,7 @@ type DataType = {
   }
 }
 
-export function AboutCompany() {
+export function SectionAboutCompany() {
   const [data, setData] = useState<DataType | null>(null)
 
   useEffect(() => {

@@ -1,7 +1,7 @@
-import { TitleSection } from './TitleSection.tsx'
-import { newsData } from '../../public/data/news.ts'
+import { TitleSection } from '../../components/TitleSection.tsx'
+import { newsData } from '../../../public/data/news.ts'
 
-export function News() {
+export function SectionNews() {
   return (
     <section className='bg-white flex flex-col gap-6.5 items-center py-25.5'>
       <TitleSection title={newsData.title} color='#000' position='center' fill='#FDCF55' />

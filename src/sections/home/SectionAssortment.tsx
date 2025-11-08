@@ -1,7 +1,7 @@
-import { assortment } from '../../../../public/data/assortment.tsx'
-import { TitleSection } from '../../../components/TitleSection.tsx'
+import { assortment } from '../../../public/data/assortment.tsx'
+import { TitleSection } from '../../components/TitleSection.tsx'
 
-export function OurAssortment() {
+export function SectionAssortment() {
   return (
     <section
       className='h-151 relative overflow-hidden bg-no-repeat bg-center'

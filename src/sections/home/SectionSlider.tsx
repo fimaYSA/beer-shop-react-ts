@@ -1,7 +1,7 @@
-import { Slider } from '../../../components/Slider.tsx'
-import { MainButton } from '../../../components/MainButton.tsx'
+import { Slider } from '../../components/Slider.tsx'
+import { MainButton } from '../../components/MainButton.tsx'
 
-export function SliderSection() {
+export function SectionSlider() {
   return (
     <section className='max-w-480 h-251.75 relative'>
       <Slider />

@@ -1,9 +1,9 @@
-import { whyUs } from '../../../../public/data/whyUs.ts'
-import { TitleSection } from '../../../components/TitleSection.tsx'
-import { newBeerData } from '../../../../public/data/newBeer.ts'
-import { SliderBtn } from '../../../components/SliderBtn.tsx'
+import { whyUs } from '../../../public/data/whyUs.ts'
+import { TitleSection } from '../../components/TitleSection.tsx'
+import { newBeerData } from '../../../public/data/newBeer.ts'
+import { SliderBtn } from '../../components/SliderBtn.tsx'
 
-export function NewBeer() {
+export function SectionNew() {
   return (
     <section
       className='h-246.5 bg-repeat-y pt-25 flex flex-col items-center relative'

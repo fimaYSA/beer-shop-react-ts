@@ -1,8 +1,8 @@
-import { TitleSection } from '../../../components/TitleSection.tsx'
-import { servicesData } from '../../../../public/data/services.ts'
-import { MainButton } from '../../../components/MainButton.tsx'
+import { TitleSection } from '../../components/TitleSection.tsx'
+import { servicesData } from '../../../public/data/services.ts'
+import { MainButton } from '../../components/MainButton.tsx'
 
-export function Services() {
+export function SectionServices() {
   return (
     <section className='h-163.5 bg-white flex gap-4 flex-col justify-end'>
       <TitleSection title={servicesData.title} color='#000' position='center' fill='#FDCF55' />
