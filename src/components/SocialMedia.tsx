@@ -1,4 +1,4 @@
-import { socialMediaData } from '../../public/data/social-media.ts'
+import { socialMediaData } from '../data/social-media.ts'
 
 export function SocialMedia() {
   return (

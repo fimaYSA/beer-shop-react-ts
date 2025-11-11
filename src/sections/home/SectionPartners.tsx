@@ -1,7 +1,7 @@
-import { whyUs } from '../../../public/data/whyUs.ts'
+import { whyUs } from '../../data/whyUs.ts'
 import { SliderBtn } from '../../components/sliders/SliderBtn.tsx'
 import { TitleSection } from '../../components/TitleSection.tsx'
-import { ourPartnersData } from '../../../public/data/ourPartners.ts'
+import { ourPartnersData } from '../../data/ourPartners.ts'
 
 export function SectionPartners() {
   return (

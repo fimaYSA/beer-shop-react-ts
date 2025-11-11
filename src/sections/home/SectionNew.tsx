@@ -1,6 +1,6 @@
-import { whyUs } from '../../../public/data/whyUs.ts'
+import { whyUs } from '../../data/whyUs.ts'
 import { TitleSection } from '../../components/TitleSection.tsx'
-import { newBeerData } from '../../../public/data/newBeer.ts'
+import { newBeerData } from '../../data/newBeer.ts'
 import { SliderBtn } from '../../components/sliders/SliderBtn.tsx'
 
 export function SectionNew() {

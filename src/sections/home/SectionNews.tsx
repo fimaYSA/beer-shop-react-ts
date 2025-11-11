@@ -1,5 +1,5 @@
 import { TitleSection } from '../../components/TitleSection.tsx'
-import { newsData } from '../../../public/data/news.ts'
+import { newsData } from '../../data/news.ts'
 
 export function SectionNews() {
   return (
