@@ -15,8 +15,8 @@ export function SectionWhyUs() {
         >
           {whyUs.itemsArr.map((el) => {
             return (
-              <div key={el.title} className='flex flex-col items-center'>
-                <div className='relative flex justify-center items-end'>
+              <div key={el.title} className='flex flex-col items-center justify-end'>
+                <div className='relative flex justify-center'>
                   <div
                     className='size-23.75 lg:size-35.5 rounded-full bg-[#FDCF55] absolute
                       bottom-[5px]'
