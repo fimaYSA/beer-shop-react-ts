@@ -14,7 +14,10 @@ export function TitleSection({ title, color, position, fill }: OwnProps) {
         <Wheat fill={fill} />
         <Wheat fill={fill} rotate={180} />
       </div>
-      <h2 style={{ color: color }} className='font-medium text-[35px] leading-10.5'>
+      <h2
+        style={{ color: color }}
+        className='font-medium text-[25px] leading-7.5 md:text-[35px] md:leading-10.5'
+      >
         {title}
       </h2>
     </div>
