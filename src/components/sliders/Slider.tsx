@@ -19,15 +19,18 @@ export function Slider() {
   return (
     <div
       style={{ backgroundImage: `url(${urlImg})` }}
-      className={'bg-no-repeat bg-center duration-300 w-full h-full'}
+      className={'bg-no-repeat bg-center bg-cover duration-300 w-full h-full'}
     >
       <div className='w-full h-full bg-black/60 relative flex flex-col items-center'>
-        <div className='flex w-292 justify-between absolute bottom-111'>
+        <div
+          className='flex w-72.5 xl:w-292 justify-between absolute bottom-14 md:bottom-51
+            xl:bottom-111'
+        >
           <SliderBtn onClick={handelClickPrev} isActive={sliderImg - 1 !== 0} />
           <SliderBtn onClick={handelClickNext} isActive={sliderImg !== 3} rotate={180} />
         </div>
 
-        <div className='absolute bottom-51'>
+        <div className='absolute bottom-14 md:bottom-51'>
           <SelectedSlideBtn onClick={handelClick} selectedID={sliderImg} />
         </div>
       </div>

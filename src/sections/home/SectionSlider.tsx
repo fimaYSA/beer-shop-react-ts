@@ -3,16 +3,23 @@ import { MainButton } from '../../components/inputs/MainButton.tsx'
 
 export function SectionSlider() {
   return (
-    <section className='max-w-480 h-251.75 relative'>
+    <section className='max-w-480 h-142 md:h-220 lg:h-220 xl:h-251.75 relative text-white'>
       <Slider />
 
       <div
-        className='max-w-280 flex flex-col items-center absolute top-89 left-1/2 -translate-x-1/2'
+        className='w-full px-3.75 sm:max-w-280 flex flex-col items-start sm:items-center absolute
+          top-33 md:top-70 lg:top-89 left-1/2 -translate-x-1/2 text-left sm:text-center'
       >
-        <h1 className='text-[80px] text-white leading-19 font-semibold text-center'>
+        <h1
+          className='text-[35px] md:text-[55px] xl:text-[80px] leading-8.25 md:leading-12
+            xl:leading-19 font-semibold'
+        >
           В стремлении <span className='text-[#FDCF55]'>к совершенству.</span>
         </h1>
-        <p className='max-w-230 leading-6 text-white mt-7 mb-10 text-center font-light'>
+        <p
+          className='max-w-230 leading-5 sm:leading-6 text-sm sm:text-base mt-3.5 sm:mt-7 mb-7.25
+            sm:mb-10 font-light'
+        >
           В ассортименте в большом разнообразии представлены хмельные напитки собственного
           изготовления, а также от проверенных и надёжных партнёров – приобрести пиво оптом Москве и
           Московской области можно на выгодных условиях, а главное, будучи уверенным в отличных
@@ -21,8 +28,11 @@ export function SectionSlider() {
         <MainButton title={'Перейти в каталог'} />
       </div>
 
-      <div className='w-30 flex flex-col items-center absolute bottom-11 left-1/2 -translate-x-1/2'>
-        <p className='text-[13px] text-white'>Пролистать в низ</p>
+      <div
+        className='hidden w-30 md:flex flex-col items-center absolute bottom-11 left-1/2
+          -translate-x-1/2'
+      >
+        <p className='text-[13px]'>Пролистать в низ</p>
         <svg
           className='mt-[9px] mb-[13px]'
           width='21'
