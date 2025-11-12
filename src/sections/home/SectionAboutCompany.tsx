@@ -52,7 +52,9 @@ export function SectionAboutCompany() {
                 return <p key={i}>{p}</p>
               })}
             </div>
-            <MainButton title={data.title} height={44} />
+            <div className='w-47.5 h-9.25 text-sm sm:w-[255px] sm:h-[44px] sm:text-base'>
+              <MainButton title={data.title} />
+            </div>
           </div>
           <div
             style={{ backgroundImage: `url(${data?.img.manWithGlass.src})` }}

@@ -27,7 +27,9 @@ export function SectionServices() {
                 >
                   {s.description}
                 </p>
-                <MainButton title='Подробнее' height={44} />
+                <div className='w-47.5 h-10.25 text-sm sm:w-[255px] sm:h-[44px] sm:text-base'>
+                  <MainButton title='Подробнее' />
+                </div>
               </div>
             </div>
           )

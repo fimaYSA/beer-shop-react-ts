@@ -25,7 +25,9 @@ export function SectionSlider() {
           Московской области можно на выгодных условиях, а главное, будучи уверенным в отличных
           вкусовых характеристиках!
         </p>
-        <MainButton title={'Перейти в каталог'} />
+        <div className='w-47.5 h-9.5 text-sm sm:w-[255px] sm:h-[51px] sm:text-base'>
+          <MainButton title={'Перейти в каталог'} />
+        </div>
       </div>
 
       <div
