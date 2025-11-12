@@ -26,8 +26,13 @@ export function Slider() {
           className='flex w-72.5 xl:w-292 justify-between absolute bottom-14 md:bottom-51
             xl:bottom-111'
         >
-          <SliderBtn onClick={handelClickPrev} isActive={sliderImg - 1 !== 0} />
-          <SliderBtn onClick={handelClickNext} isActive={sliderImg !== 3} rotate={180} />
+          <SliderBtn onClick={handelClickPrev} disabled={sliderImg - 1 === 0} colorBtn='white' />
+          <SliderBtn
+            onClick={handelClickNext}
+            disabled={sliderImg === 3}
+            colorBtn='white'
+            rotate={180}
+          />
         </div>
 
         <div className='absolute bottom-14 md:bottom-51'>
