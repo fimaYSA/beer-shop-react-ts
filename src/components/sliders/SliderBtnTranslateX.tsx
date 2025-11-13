@@ -83,7 +83,7 @@ export const SliderBtnTranslateX = ({ onTranslateX, viewportRef }: PropsT) => {
       <SliderBtn
         colorBtn='green'
         rotate={180}
-        disabled={scrollElementWidth - (viewportWidth + offset) === 0}
+        disabled={scrollElementWidth - (viewportWidth + offset) <= 1}
         onClick={updateWithRight}
       />
     </div>

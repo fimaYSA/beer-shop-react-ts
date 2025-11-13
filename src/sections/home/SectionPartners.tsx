@@ -1,27 +1,52 @@
 import { whyUs } from '../../data/whyUs.ts'
-import { SliderBtn } from '../../components/sliders/SliderBtn.tsx'
 import { TitleSection } from '../../components/TitleSection.tsx'
 import { ourPartnersData } from '../../data/ourPartners.ts'
+import { SliderBtnTranslateX } from '../../components/sliders/SliderBtnTranslateX.tsx'
+import { useRef, useState } from 'react'
 
 export function SectionPartners() {
+  const [translateX, setTranslateX] = useState<number>(0)
+  const viewportRef = useRef<HTMLDivElement | null>(null)
+
+  const onClickBtn = (value: number) => {
+    if (value === 0) {
+      setTranslateX(value)
+    } else {
+      setTranslateX((prev) => prev + value)
+    }
+  }
+
   return (
     <section
-      className='h-92.5 bg-no-repeat bg-center relative flex flex-col items-center gap-12'
+      className='bg-center bg-origin-padding relative flex flex-col items-center gap-8.25 md:gap-12
+        pb-16.75'
       style={{ backgroundImage: `url(${whyUs.background.paper_BG})` }}
     >
       <TitleSection title={ourPartnersData.title} color='#000' position='center' />
-      <div className='flex gap-57.75'>
-        {ourPartnersData.partners.map((p, i) => {
-          return (
-            <div key={i} className='size-37.25 flex justify-center items-center'>
-              <img src={p.src} alt='' />
-            </div>
-          )
-        })}
+
+      <div
+        ref={viewportRef}
+        className='w-[149px] sm:w-[358px] lg:w-[567px] xl:w-[911px] overflow-hidden'
+      >
+        <div
+          style={{ transform: `translateX(-${translateX}px)` }}
+          className='inline-flex gap-15 xl:gap-58 duration-300'
+        >
+          {ourPartnersData.partners.map((p, i) => {
+            return (
+              <div key={i} className='size-37.25 flex justify-center items-center'>
+                <img src={p.src} alt='' />
+              </div>
+            )
+          })}
+        </div>
       </div>
-      <div className='w-296.5 flex justify-between absolute bottom-43 left-1/2 -translate-x-1/2'>
-        <SliderBtn />
-        <SliderBtn rotate={180} />
+
+      <div
+        className='px-3.75 w-full sm:w-8/10 md:w-7/10 xl:w-[1220px] absolute top-1/2
+          -translate-y-1/4 md:translate-y-1/2'
+      >
+        <SliderBtnTranslateX onTranslateX={onClickBtn} viewportRef={viewportRef} />
       </div>
     </section>
   )
