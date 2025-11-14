@@ -8,7 +8,7 @@ type Props = {
 
 export function Carcass({ children }: Props) {
   return (
-    <div className='max-w-480 mx-auto relative'>
+    <div className='max-w-480 mx-auto relative overflow-hidden'>
       <Header />
       <main>{children}</main>
       <Footer />

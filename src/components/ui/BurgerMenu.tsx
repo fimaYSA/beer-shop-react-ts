@@ -54,8 +54,8 @@ export function BurgerMenu() {
 
       {/* Меню */}
       <div
-        className={`fixed top-0 right-0 flex flex-col h-screen w-full bg-black text-[#FDCF55] transition
-          duration-300 pt-26 pl-4.5 ${isOpen ? '-translate-x-0' : 'translate-x-full'}`}
+        className={`fixed top-0 right-0 flex flex-col h-screen w-full bg-black text-[#FDCF55]
+          transition duration-300 pt-26 pl-4.5 ${isOpen ? '-translate-x-0' : 'translate-x-full'}`}
       >
         <div className='flex gap-6.5 items-end'>
           <Search />
