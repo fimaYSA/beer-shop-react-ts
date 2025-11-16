@@ -1,17 +1,7 @@
-import { Route, Routes } from 'react-router'
-import { Carcass } from '@/components/containers/Carcass.tsx'
-import { HomePage } from '@/pages/HomePage.tsx'
-import { AboutPage } from '@/pages/AboutPage.tsx'
+import { Routing } from '@/common/rouring/Routing.tsx'
 
 function App() {
-  return (
-    <Routes>
-      <Route element={<Carcass />}>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/about' element={<AboutPage />} />
-      </Route>
-    </Routes>
-  )
+  return <Routing />
 }
 
 export default App
