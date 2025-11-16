@@ -1,16 +1,14 @@
 import { Header } from '../ui/Header.tsx'
 import { Footer } from '../ui/Footer.tsx'
-import type { ReactElement } from 'react'
+import { Outlet } from 'react-router'
 
-type Props = {
-  children: ReactElement
-}
-
-export function Carcass({ children }: Props) {
+export function Carcass() {
   return (
     <div className='max-w-480 mx-auto relative overflow-hidden'>
       <Header />
-      <main>{children}</main>
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </div>
   )
