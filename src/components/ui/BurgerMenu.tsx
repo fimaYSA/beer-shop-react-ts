@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import { SocialMedia } from '../SocialMedia.tsx'
-import { Search } from '../inputs/Search.tsx'
-import { Cart } from '../Cart.tsx'
-import { Nav } from './Nav.tsx'
+import { SocialMedia } from '@/components/SocialMedia.tsx'
+import { Search } from '@/components/inputs/Search.tsx'
+import { Cart } from '@/components/Cart.tsx'
+import { Nav } from '@/components/ui/Nav.tsx'
 
 export function BurgerMenu() {
   const [isOpen, setIsOpen] = useState(false)

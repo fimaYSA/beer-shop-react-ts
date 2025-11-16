@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { SliderBtn } from './SliderBtn.tsx'
-import { SelectedSlideBtn } from './SelectedSlideBtn.tsx'
+import { SliderBtn } from '@/components/sliders/SliderBtn.tsx'
+import { SelectedSlideBtn } from '@/components/sliders/SelectedSlideBtn.tsx'
 
 export function Slider() {
   const [sliderImg, setSliderImg] = useState(1)

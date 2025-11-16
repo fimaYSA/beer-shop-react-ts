@@ -1,6 +1,6 @@
-import { footerData } from '../../data/footer.ts'
-import { Logo } from './Logo.tsx'
-import { SocialMedia } from '../SocialMedia.tsx'
+import { footerData } from '@/data/footer.ts'
+import { Logo } from '@/components/ui/Logo.tsx'
+import { SocialMedia } from '@/components/SocialMedia.tsx'
 
 export function Footer() {
   return (

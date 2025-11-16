@@ -1,6 +1,6 @@
-import { TitleSection } from '../../components/TitleSection.tsx'
 import { useEffect, useState } from 'react'
-import { MainButton } from '../../components/inputs/MainButton.tsx'
+import { TitleSection } from '@/components/TitleSection.tsx'
+import { MainButton } from '@/components/inputs/MainButton.tsx'
 
 type DataType = {
   title: string

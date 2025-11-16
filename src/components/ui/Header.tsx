@@ -1,9 +1,9 @@
-import { Logo } from './Logo.tsx'
-import { SocialMedia } from '../SocialMedia.tsx'
-import { Nav } from './Nav.tsx'
-import { Cart } from '../Cart.tsx'
-import { Search } from '../inputs/Search.tsx'
-import { BurgerMenu } from './BurgerMenu.tsx'
+import { Logo } from '@/components/ui/Logo.tsx'
+import { SocialMedia } from '@/components/SocialMedia.tsx'
+import { Nav } from '@/components/ui/Nav.tsx'
+import { Cart } from '@/components/Cart.tsx'
+import { Search } from '@/components/inputs/Search.tsx'
+import { BurgerMenu } from '@/components/ui/BurgerMenu.tsx'
 
 export function Header() {
   return (

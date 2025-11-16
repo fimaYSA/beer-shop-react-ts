@@ -1,5 +1,5 @@
-import { Header } from '../ui/Header.tsx'
-import { Footer } from '../ui/Footer.tsx'
+import { Header } from '@/components/ui/Header.tsx'
+import { Footer } from '@/components/ui/Footer.tsx'
 import { Outlet } from 'react-router'
 
 export function Carcass() {

@@ -1,4 +1,4 @@
-import { Wheat } from './Wheat.tsx'
+import { Wheat } from '@/components/Wheat.tsx'
 
 type OwnProps = {
   title: string

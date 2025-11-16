@@ -1,4 +1,4 @@
-import { SliderBtn } from './SliderBtn.tsx'
+import { SliderBtn } from '@/components/sliders/SliderBtn.tsx'
 import { type RefObject, useEffect, useState } from 'react'
 
 type PropsT = {

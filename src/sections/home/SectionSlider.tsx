@@ -1,5 +1,5 @@
-import { Slider } from '../../components/sliders/Slider.tsx'
-import { MainButton } from '../../components/inputs/MainButton.tsx'
+import { Slider } from '@/components/sliders/Slider.tsx'
+import { MainButton } from '@/components/inputs/MainButton.tsx'
 
 export function SectionSlider() {
   return (

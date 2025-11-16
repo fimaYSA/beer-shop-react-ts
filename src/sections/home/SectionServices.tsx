@@ -1,6 +1,6 @@
-import { TitleSection } from '../../components/TitleSection.tsx'
-import { servicesData } from '../../data/services.ts'
-import { MainButton } from '../../components/inputs/MainButton.tsx'
+import { TitleSection } from '@/components/TitleSection.tsx'
+import { servicesData } from '@/data/services.ts'
+import { MainButton } from '@/components/inputs/MainButton.tsx'
 
 export function SectionServices() {
   return (
