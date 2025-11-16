@@ -1,4 +1,4 @@
-import { Routing } from '@/common/rouring/Routing.tsx'
+import { Routing } from '@/common/routing/Routing.tsx'
 
 function App() {
   return <Routing />
