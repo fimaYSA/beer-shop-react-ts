@@ -1,7 +1,7 @@
-import type { ReactElement } from 'react'
+import type { ReactNode } from 'react'
 
 type Props = {
-  children: ReactElement
+  children: ReactNode
 }
 
 export const BgPaper = ({ children }: Props) => (
