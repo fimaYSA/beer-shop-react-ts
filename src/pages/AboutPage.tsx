@@ -2,6 +2,7 @@ import { TitlePage } from '@/components/TitlePage.tsx'
 import { Background } from '@/components/containers/Background.tsx'
 import { OurHistory } from '@/sections/about/OurHistory.tsx'
 import { WhyUs } from '@/sections/about/WhyUs.tsx'
+import { Delivery } from '@/sections/about/Delivery.tsx'
 
 export function AboutPage() {
   return (
@@ -11,6 +12,7 @@ export function AboutPage() {
         <OurHistory />
         <WhyUs />
       </Background>
+      <Delivery />
     </>
   )
 }
