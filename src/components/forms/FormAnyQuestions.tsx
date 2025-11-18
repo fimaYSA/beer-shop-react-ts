@@ -4,10 +4,10 @@ import { Input } from '@/components/inputs/Input.tsx'
 export function FormAnyQuestions() {
   return (
     <form
-      className='h-91 w-72.5 rounded-[5px] bg-[url(images/background/form_hop.png)] bg-cover
-        bg-no-repeat lg:w-63.75'
+      className='h-91 w-72.5 rounded-[5px] bg-[url(images/background/hop_parallax.jpg)] bg-cover
+        bg-center bg-no-repeat lg:w-63.75'
     >
-      <div className='rounded-[5px] bg-black/50 px-5 py-4.25'>
+      <div className='h-full rounded-[5px] bg-black/50 px-5 py-4.25'>
         <h2 className='text-[22px] leading-6.5 font-medium text-white'>Остались вопросы?</h2>
 
         <p className='mt-3 text-sm leading-4.25 font-medium text-white'>
