@@ -4,28 +4,32 @@ import { Nav } from '@/components/ui/Nav.tsx'
 import { Cart } from '@/components/Cart.tsx'
 import { Search } from '@/components/inputs/Search.tsx'
 import { BurgerMenu } from '@/components/ui/BurgerMenu.tsx'
+import { NavLink } from 'react-router'
+import { PATS } from '@/common/routing/routesConstants.ts'
 
 export function Header() {
   return (
     <header
-      className='absolute text-white pt-3 top-0 w-full md:w-[87.5%] xl:w-[1120px] z-10 left-1/2
-        -translate-x-1/2'
+      className='absolute top-0 left-1/2 z-10 w-full -translate-x-1/2 pt-3 text-white md:w-[87.5%]
+        xl:w-[1120px]'
     >
-      <div className='w-full hidden md:flex items-end justify-between absolute top-15'>
+      <div className='absolute top-15 hidden w-full items-end justify-between md:flex'>
         <SocialMedia />
-        <div className='flex gap-8.75 items-end'>
+        <div className='flex items-end gap-8.75'>
           <Search />
           <Cart />
         </div>
       </div>
 
-      <div className='hidden md:block absolute top-[191px] left-1/2 -translate-x-1/2'>
+      <div className='absolute top-[191px] left-1/2 hidden -translate-x-1/2 md:block'>
         <Nav direction='row' />
       </div>
 
-      <div className='flex justify-center'>
-        <Logo direction='col' />
-      </div>
+      <NavLink to={PATS.Home}>
+        <div className='flex justify-center'>
+          <Logo direction='col' />
+        </div>
+      </NavLink>
 
       <BurgerMenu />
     </header>
