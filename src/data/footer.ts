@@ -3,18 +3,6 @@ export const footerData = {
     'В ассортименте в большом разнообразии представлены хмельные напитки собственного изготовления, а также от проверенных и надёжных партнёров.',
   contacts: {
     title: 'Контактная информация',
-    location: {
-      img: 'images/footer/map.svg',
-      point: 'Россия, Москва, Рязанский проспект 22, к2',
-    },
-    phones: {
-      img: 'images/footer/phone.svg',
-      numbers: ['+7 (495) 740-40-51', '+7 (925) 924-07-00'],
-    },
-    email: {
-      img: 'images/footer/mail.svg',
-      mail: 'wunderbeer@mail.ru',
-    },
   },
   links: [
     { name: 'Каталог' },
