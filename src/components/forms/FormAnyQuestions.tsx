@@ -15,8 +15,8 @@ export function FormAnyQuestions() {
         </p>
 
         <div className='mt-4 flex flex-col gap-2.5'>
-          <Input inputType='name' />
-          <Input inputType='number' />
+          <Input inputType='name' background={true} border={false} />
+          <Input inputType='number' background={true} border={false} />
         </div>
 
         <p className='pt-3 text-[11px] leading-3.25 font-normal text-white'>
