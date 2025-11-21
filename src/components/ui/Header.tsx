@@ -2,8 +2,8 @@ import { Logo } from '@/components/ui/Logo.tsx'
 import { SocialMedia } from '@/components/SocialMedia.tsx'
 import { Nav } from '@/components/ui/Nav.tsx'
 import { Cart } from '@/components/Cart.tsx'
-import { Search } from '@/components/inputs/Search.tsx'
 import { BurgerMenu } from '@/components/ui/BurgerMenu.tsx'
+import { IconSearch } from '@/components/icon/IconSearch.tsx'
 
 export function Header() {
   return (
@@ -14,7 +14,7 @@ export function Header() {
       <div className='absolute top-15 hidden w-full items-end justify-between md:flex'>
         <SocialMedia />
         <div className='flex items-end gap-8.75'>
-          <Search />
+          <IconSearch size={7} />
           <Cart />
         </div>
       </div>

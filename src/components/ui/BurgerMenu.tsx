@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { SocialMedia } from '@/components/SocialMedia.tsx'
-import { Search } from '@/components/inputs/Search.tsx'
 import { Cart } from '@/components/Cart.tsx'
 import { Nav } from '@/components/ui/Nav.tsx'
+import { IconSearch } from '@/components/icon/IconSearch.tsx'
 
 export function BurgerMenu() {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,7 +20,7 @@ export function BurgerMenu() {
   const toggleMenu = () => {
     setIsOpen(!isOpen)
   }
-  const handelCloseMenu= ()=>setIsOpen(false)
+  const handelCloseMenu = () => setIsOpen(false)
 
   return (
     <div className='md:hidden'>
@@ -59,7 +59,7 @@ export function BurgerMenu() {
           text-[#FDCF55] transition duration-300 ${isOpen ? '-translate-x-0' : 'translate-x-full'}`}
       >
         <div className='flex items-end gap-6.5'>
-          <Search />
+          <IconSearch size={7} />
           <Cart />
         </div>
         <div className='mt-7 mb-38'>
