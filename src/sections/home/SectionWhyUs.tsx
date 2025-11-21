@@ -1,4 +1,4 @@
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 import { whyUs } from '@/data/whyUs.ts'
 
 export function SectionWhyUs() {

@@ -1,6 +1,6 @@
-import { TitlePage } from '@/components/TitlePage.tsx'
+import { TitlePage } from '@/components/title/TitlePage.tsx'
 import { Background } from '@/components/containers/Background.tsx'
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 import { Connection } from '@/components/ui/Connection.tsx'
 import { Location } from '@/components/Location.tsx'
 import { FormMessageForUs } from '@/components/forms/FormMessageForUs.tsx'

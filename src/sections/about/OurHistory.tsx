@@ -1,4 +1,4 @@
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 
 export const OurHistory = () => (
   <div className='pt-8.25 text-black'>

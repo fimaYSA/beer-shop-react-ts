@@ -1,4 +1,4 @@
-import { TitlePage } from '@/components/TitlePage.tsx'
+import { TitlePage } from '@/components/title/TitlePage.tsx'
 import { Background } from '@/components/containers/Background.tsx'
 import { OurHistory } from '@/sections/about/OurHistory.tsx'
 import { WhyUs } from '@/sections/about/WhyUs.tsx'

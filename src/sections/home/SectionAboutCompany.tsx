@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 import { MainButton } from '@/components/inputs/MainButton.tsx'
 
 type DataType = {

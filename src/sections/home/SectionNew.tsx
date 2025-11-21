@@ -1,5 +1,5 @@
 import { whyUs } from '@/data/whyUs.ts'
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 import { newBeerData } from '@/data/newBeer.ts'
 import { SliderBtnTranslateX } from '@/components/sliders/SliderBtnTranslateX.tsx'
 import { useRef, useState } from 'react'

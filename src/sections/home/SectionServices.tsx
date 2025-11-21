@@ -1,4 +1,4 @@
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 import { servicesData } from '@/data/services.ts'
 import { MainButton } from '@/components/inputs/MainButton.tsx'
 

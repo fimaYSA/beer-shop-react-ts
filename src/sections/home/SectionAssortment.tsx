@@ -1,5 +1,5 @@
 import { assortment } from '@/data/assortment.ts'
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 
 export function SectionAssortment() {
   return (

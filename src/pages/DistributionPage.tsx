@@ -1,4 +1,4 @@
-import { TitlePage } from '@/components/TitlePage.tsx'
+import { TitlePage } from '@/components/title/TitlePage.tsx'
 import { Background } from '@/components/containers/Background.tsx'
 import { FormMessageForUs } from '@/components/forms/FormMessageForUs.tsx'
 import { Paragraph } from '@/components/Paragraph.tsx'

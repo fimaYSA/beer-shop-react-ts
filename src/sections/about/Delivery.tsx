@@ -1,5 +1,5 @@
 import { Background } from '@/components/containers/Background.tsx'
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 import { FormAnyQuestions } from '@/components/forms/FormAnyQuestions.tsx'
 
 export const Delivery = () => (

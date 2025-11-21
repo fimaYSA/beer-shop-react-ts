@@ -1,5 +1,5 @@
 import { Background } from '@/components/containers/Background.tsx'
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 
 export const HowToBuy = () => (
   <Background background={'hop'} blackOut={40}>
