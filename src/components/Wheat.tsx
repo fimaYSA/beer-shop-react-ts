@@ -1,9 +1,9 @@
-export function Wheat({ fill = '#769B54', rotate = 0 }) {
+export function Wheat({ fill = '#769B54', rotate = 0, w = 47, h = 18 }) {
   return (
     <svg
-      style={{transform: `rotate(${rotate}deg)` }}
-      width='47'
-      height='18'
+      style={{ transform: `rotate(${rotate}deg)` }}
+      width={w}
+      height={h}
       viewBox='0 0 47 18'
       fill={fill}
       xmlns='http://www.w3.org/2000/svg'

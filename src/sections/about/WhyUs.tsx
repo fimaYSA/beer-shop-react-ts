@@ -1,4 +1,4 @@
-import { TitleSection } from '@/components/TitleSection.tsx'
+import { TitleSection } from '@/components/title/TitleSection.tsx'
 import { CardWhyUs } from '@/components/cards/CardWhyUs.tsx'
 
 const whyUsItems = [
