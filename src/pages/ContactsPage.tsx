@@ -27,9 +27,7 @@ export function ContactsPage() {
               </div>
             </div>
 
-            <div className='w-full max-w-135'>
-              <FormMessageForUs />
-            </div>
+            <FormMessageForUs backgroundInput={false} borderInput={true} />
           </div>
 
           <iframe

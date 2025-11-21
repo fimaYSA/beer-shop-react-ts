@@ -27,7 +27,7 @@ export function Input({ inputType, background, border }: Props) {
       placeholder={placeholder}
       className={cn(
         [background && 'bg-white/50', border && 'border border-[#C7C7C7]'],
-        'w-full rounded-[5px] px-4.5 py-4 text-base leading-4.75 font-normal',
+        'w-full rounded-[5px] px-4.5 py-4 text-base leading-4.75 font-normal text-black',
       )}
     />
   )
