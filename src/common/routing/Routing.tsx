@@ -9,20 +9,20 @@ import { EquipmentPage } from '@/pages/EquipmentPage.tsx'
 import { BasketPage } from '@/pages/BasketPage.tsx'
 import { PolicyPage } from '@/pages/PolicyPage.tsx'
 import { NotFoundPage } from '@/pages/NotFoundPage.tsx'
-import { PATS } from '@/common/routing/routesConstants.ts'
+import { PATHS } from '@/common/routing/routesConstants.ts'
 
 export const Routing = () => (
   <Routes>
     <Route element={<Carcass />}>
-      <Route path={PATS.Home} element={<HomePage />} />
-      <Route path={PATS.About} element={<AboutPage />} />
-      <Route path={PATS.Contacts} element={<ContactsPage />} />
-      <Route path={PATS.Catalog} element={<CatalogPage />} />
-      <Route path={PATS.Distribution} element={<DistributionPage />} />
-      <Route path={PATS.Equipment} element={<EquipmentPage />} />
-      <Route path={PATS.Basket} element={<BasketPage />} />
-      <Route path={PATS.Policy} element={<PolicyPage />} />
-      <Route path={PATS.Notfound} element={<NotFoundPage />} />
+      <Route path={PATHS.Home} element={<HomePage />} />
+      <Route path={PATHS.About} element={<AboutPage />} />
+      <Route path={PATHS.Contacts} element={<ContactsPage />} />
+      <Route path={PATHS.Catalog} element={<CatalogPage />} />
+      <Route path={PATHS.Distribution} element={<DistributionPage />} />
+      <Route path={PATHS.Equipment} element={<EquipmentPage />} />
+      <Route path={PATHS.Basket} element={<BasketPage />} />
+      <Route path={PATHS.Policy} element={<PolicyPage />} />
+      <Route path={PATHS.Notfound} element={<NotFoundPage />} />
     </Route>
   </Routes>
 )

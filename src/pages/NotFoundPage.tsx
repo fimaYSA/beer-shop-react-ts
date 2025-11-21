@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router'
-import { PATS } from '@/common/routing/routesConstants.ts'
+import { PATHS } from '@/common/routing/routesConstants.ts'
 
 export function NotFoundPage() {
   return (
@@ -19,7 +19,7 @@ export function NotFoundPage() {
       >
         Такой страницы не сущетвует
       </p>
-      <NavLink to={PATS.Home}>
+      <NavLink to={PATHS.Home}>
         <span className='text-xs leading-5.5 font-normal -tracking-[0.6px] underline lg:text-xl'>
           Вернутся на главную страницу
         </span>

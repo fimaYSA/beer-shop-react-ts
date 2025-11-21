@@ -1,4 +1,4 @@
-import { PATS } from '@/common/routing/routesConstants.ts'
+import { PATHS } from '@/common/routing/routesConstants.ts'
 import { NavLink } from 'react-router'
 
 type Nav = Array<{ to: string; label: string }>
@@ -9,11 +9,11 @@ type Props = {
 }
 
 const navItems: Nav = [
-  { to: PATS.Catalog, label: 'Каталог' },
-  { to: PATS.Distribution, label: 'Дистрибуция' },
-  { to: PATS.Equipment, label: 'Комплектация магазинов' },
-  { to: PATS.About, label: 'О компании' },
-  { to: PATS.Contacts, label: 'Контакты' },
+  { to: PATHS.Catalog, label: 'Каталог' },
+  { to: PATHS.Distribution, label: 'Дистрибуция' },
+  { to: PATHS.Equipment, label: 'Комплектация магазинов' },
+  { to: PATHS.About, label: 'О компании' },
+  { to: PATHS.Contacts, label: 'Контакты' },
 ]
 
 export function Nav({ direction, onCloseMenu }: Props) {

@@ -1,6 +1,8 @@
 import { MainButton } from '@/components/inputs/MainButton.tsx'
 import { Input } from '@/components/inputs/Input.tsx'
 import { Textarea } from '@/components/inputs/Textarea.tsx'
+import { NavLink } from 'react-router'
+import { PATHS } from '@/common/routing/routesConstants.ts'
 
 type Props = {
   borderInput: boolean
@@ -25,7 +27,7 @@ export function FormMessageForUs({ borderInput, backgroundInput }: Props) {
       <div className='lg:text-center'>
         <p className='mt-3.75 text-[11px] leading-3.25 font-normal sm:mt-2.5'>
           Нажимая на кнопку “отправить”, вы даете согласие на обработку своих
-          <span className='text-main-yellow'> персональных данных</span>
+          <NavLink to={PATHS.Policy} className='text-main-yellow'> персональных данных</NavLink>
         </p>
         <div className='mx-auto mt-5 h-11 w-60'>
           <MainButton title='Отправить' bgColor='#FDCF55' />
