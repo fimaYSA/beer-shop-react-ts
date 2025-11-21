@@ -20,30 +20,31 @@ export function BurgerMenu() {
   const toggleMenu = () => {
     setIsOpen(!isOpen)
   }
+  const handelCloseMenu= ()=>setIsOpen(false)
 
   return (
     <div className='md:hidden'>
       {/* Кнопка бургера */}
       <button
         onClick={toggleMenu}
-        className='absolute top-8.75 right-3.5 size-6 flex cursor-pointer flex-col items-center
-          justify-center gap-0.75 z-10'
+        className='absolute top-8.75 right-3.5 z-10 flex size-6 cursor-pointer flex-col items-center
+          justify-center gap-0.75'
       >
         {/*Иконка бургера */}
         <div
-          className='w-6 h-0.75 bg-[#FDCF55] rounded-full transition-all duration-300'
+          className='h-0.75 w-6 rounded-full bg-[#FDCF55] transition-all duration-300'
           style={{
             transform: isOpen ? 'rotate(45deg) translateY(2px) translateX(2px)' : 'rotate(0deg)',
           }}
         ></div>
         <div
-          className='w-6 h-0.75 bg-[#FDCF55] rounded-full'
+          className='h-0.75 w-6 rounded-full bg-[#FDCF55]'
           style={{
             display: isOpen ? 'none' : undefined,
           }}
         ></div>
         <div
-          className='w-6 h-0.75 bg-[#FDCF55] rounded-full transition-all duration-300'
+          className='h-0.75 w-6 rounded-full bg-[#FDCF55] transition-all duration-300'
           style={{
             transform: isOpen
               ? 'rotate(-45deg) translateY(-2.5px) translateX(2.5px)'
@@ -54,15 +55,15 @@ export function BurgerMenu() {
 
       {/* Меню */}
       <div
-        className={`fixed top-0 right-0 flex flex-col h-screen w-full bg-black text-[#FDCF55]
-          transition duration-300 pt-26 pl-4.5 ${isOpen ? '-translate-x-0' : 'translate-x-full'}`}
+        className={`fixed top-0 right-0 flex h-screen w-full flex-col bg-black pt-26 pl-4.5
+          text-[#FDCF55] transition duration-300 ${isOpen ? '-translate-x-0' : 'translate-x-full'}`}
       >
-        <div className='flex gap-6.5 items-end'>
+        <div className='flex items-end gap-6.5'>
           <Search />
           <Cart />
         </div>
         <div className='mt-7 mb-38'>
-          <Nav direction='col' />
+          <Nav direction='col' onCloseMenu={handelCloseMenu} />
         </div>
         <SocialMedia />
       </div>
