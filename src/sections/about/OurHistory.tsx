@@ -4,7 +4,7 @@ export const OurHistory = () => (
   <div className='pt-8.25 text-black'>
     <TitleSection title='Наша история' position='start' wheat={false} />
     <div className='mt-3.5 flex flex-wrap justify-center gap-5.5 lg:flex-nowrap xl:justify-between'>
-      <img src='/images/about/beer_glasses.jpg' alt='' className='w-full max-w-135 lg:w-1/2' />
+      <img src='/images/img/beer_glasses.jpg' alt='' className='w-full max-w-135 lg:w-1/2' />
       <div className='max-w-135 lg:w-1/2'>
         <TitleSection title='1883 г.' position='start' wheat={false} />
         <p className='pt-1.5 text-sm leading-4.25 font-normal'>

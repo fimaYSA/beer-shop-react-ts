@@ -4,8 +4,8 @@ import { TitleSection } from '@/components/TitleSection.tsx'
 export function SectionAssortment() {
   return (
     <section
+      style={{ backgroundImage: `url(${assortment.image.backgroundImage})` }}
       className='relative overflow-hidden bg-no-repeat bg-center bg-cover'
-      style={{ backgroundImage: 'url(/images/assortment/wood_BG.jpg)' }}
     >
       <div className='bg-[#292929]/60 px-9.5 pt-13 md:pt-10 pb-22.5 md:pb-11.25'>
         <TitleSection title={assortment.title} color={'#FFF'} position='center' fill='#FDCF55' />

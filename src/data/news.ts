@@ -4,17 +4,17 @@ export const newsData = {
     {
       title: 'Откройте для себя наше крафтовое пиво',
       description: 'При покупки 3-х бутылок нашего крафтого пива 1 бутылка в подарок',
-      img: '/images/news/19964.jpg'
+      img: '/images/img/draft_beer.jpg',
     },
     {
       title: 'Откройте для себя наше крафтовое пиво',
       description: 'При покупки 3-х бутылок нашего крафтого пива 1 бутылка в подарок',
-      img: '/images/news/536943.jpg'
+      img: '/images/img/glass_beer_on_table.jpg',
     },
     {
       title: 'Откройте для себя наше крафтовое пиво',
       description: 'При покупки 3-х бутылок нашего крафтого пива 1 бутылка в подарок',
-      img: '/images/news/18069000.jpg'
-    }
-  ]
+      img: '/images/img/hands_with_beer.jpg',
+    },
+  ],
 }

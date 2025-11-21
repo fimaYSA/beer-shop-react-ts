@@ -2,7 +2,7 @@ export const whyUs = {
   title: 'Почему мы',
   background: {
     paper_BG: '/images/background/paper_BG.svg',
-    hop_parallax_BG: '/images/background/hop_parallax_BG.jpg',
+    hop_parallax_BG: '/images/background/hop_parallax.jpg',
   },
   itemsArr: [
     {
