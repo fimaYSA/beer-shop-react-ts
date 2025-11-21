@@ -14,7 +14,7 @@ export function Header() {
       <div className='absolute top-15 hidden w-full items-end justify-between md:flex'>
         <SocialMedia />
         <div className='flex items-end gap-8.75'>
-          <IconSearch size={7} />
+          <IconSearch size={28} />
           <Cart />
         </div>
       </div>

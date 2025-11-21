@@ -59,7 +59,7 @@ export function BurgerMenu() {
           text-[#FDCF55] transition duration-300 ${isOpen ? '-translate-x-0' : 'translate-x-full'}`}
       >
         <div className='flex items-end gap-6.5'>
-          <IconSearch size={7} />
+          <IconSearch size={28} />
           <Cart />
         </div>
         <div className='mt-7 mb-38'>

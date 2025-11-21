@@ -1,15 +1,13 @@
-import { cn } from '@sglara/cn'
-
 type Props = {
   iconColor?: string
   size: number
 }
 
 export const IconSearch = ({ iconColor = '#FDCF55', size }: Props) => (
-  <div className={cn(['size-' + size], 'grid place-content-center')}>
+  <div className={'grid place-content-center'}>
     <svg
-      width='full'
-      height='full'
+      width={size}
+      height={size}
       viewBox='0 0 28 28'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
