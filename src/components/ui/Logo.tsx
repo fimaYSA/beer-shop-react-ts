@@ -23,7 +23,7 @@ export function Logo({ direction }: OwnProps) {
     <NavLink to={PATHS.Home} className={'z-10'}>
       <div className={direct + ' flex'}>
         <img className={heightImg} src='/images/logo.svg' alt='logo' />
-        <p className='font-logo uppercase'>Wunderbeer</p>
+        <p className='font-Roboto uppercase'>Wunderbeer</p>
       </div>
     </NavLink>
   )
