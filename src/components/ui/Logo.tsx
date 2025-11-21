@@ -1,3 +1,6 @@
+import { NavLink } from 'react-router'
+import { PATS } from '@/common/routing/routesConstants.ts'
+
 type OwnProps = {
   direction: 'row' | 'col'
 }
@@ -17,9 +20,11 @@ export function Logo({ direction }: OwnProps) {
   }
 
   return (
-    <div className={direct + ' flex z-10'}>
-      <img className={heightImg} src='/images/logo.svg' alt='logo' />
-      <p className='font-logo uppercase'>Wunderbeer</p>
-    </div>
+    <NavLink to={PATS.Home} className={'z-10'}>
+      <div className={direct + ' flex'}>
+        <img className={heightImg} src='/images/logo.svg' alt='logo' />
+        <p className='font-logo uppercase'>Wunderbeer</p>
+      </div>
+    </NavLink>
   )
 }

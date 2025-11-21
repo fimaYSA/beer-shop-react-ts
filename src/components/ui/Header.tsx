@@ -4,8 +4,6 @@ import { Nav } from '@/components/ui/Nav.tsx'
 import { Cart } from '@/components/Cart.tsx'
 import { Search } from '@/components/inputs/Search.tsx'
 import { BurgerMenu } from '@/components/ui/BurgerMenu.tsx'
-import { NavLink } from 'react-router'
-import { PATS } from '@/common/routing/routesConstants.ts'
 
 export function Header() {
   return (
@@ -25,12 +23,9 @@ export function Header() {
         <Nav direction='row' />
       </div>
 
-      <NavLink to={PATS.Home}>
-        <div className='flex justify-center'>
-          <Logo direction='col' />
-        </div>
-      </NavLink>
-
+      <div className='flex justify-center'>
+        <Logo direction='col' />
+      </div>
       <BurgerMenu />
     </header>
   )
