@@ -1,3 +1,5 @@
+import { IconSearch } from '@/components/icon/IconSearch.tsx'
+
 export function Search() {
-  return <img src='/images/search.svg' alt='search' />
+  return <IconSearch size={7}/>
 }
