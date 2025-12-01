@@ -1,6 +1,7 @@
 name: Beer shop Deploy
 
 permissions:
+  pages: write
   id-token: write
   contents: read
 
