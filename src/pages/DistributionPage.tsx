@@ -19,8 +19,16 @@ export function DistributionPage() {
       <div
         className='flex flex-wrap justify-center gap-3.75 bg-white pb-3.75 sm:pb-13.75 lg:gap-7.5'
       >
-        <img className='w-full max-w-[540px] shrink' src='/images/img/oak_barrels.jpg' alt='' />
-        <img className='w-full max-w-[540px] shrink' src='/images/img/steel_barrels.jpg' alt='' />
+        <img
+          className='w-full max-w-[540px] shrink'
+          src={`${import.meta.env.BASE_URL}images/img/oak_barrels.jpg`}
+          alt=''
+        />
+        <img
+          className='w-full max-w-[540px] shrink'
+          src={`${import.meta.env.BASE_URL}images/img/steel_barrels.jpg`}
+          alt=''
+        />
       </div>
 
       <Background background={'hop'} blackOut={40}>

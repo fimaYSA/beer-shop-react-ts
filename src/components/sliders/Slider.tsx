@@ -4,7 +4,7 @@ import { SelectedSlideBtn } from '@/components/sliders/SelectedSlideBtn.tsx'
 
 export function Slider() {
   const [sliderImg, setSliderImg] = useState(1)
-  const urlImg = '/images/slider/SLIDE_' + sliderImg + '.jpg'
+  const urlImg = 'images/slider/SLIDE_' + sliderImg + '.jpg'
 
   const handelClickNext = () => {
     setSliderImg((prev) => prev + 1)

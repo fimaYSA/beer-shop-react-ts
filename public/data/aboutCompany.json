@@ -8,10 +8,10 @@
       "В ассортименте в большом разнообразии представлены хмельные напитки собственного изготовления, а также от проверенных и надёжных партнёров – приобрести пиво оптом Москве и Московской области можно на выгодных условиях, а главное, будучи уверенным в отличных вкусовых характеристиках!"
     ],
     "img": {
-      "glass": "/images/aboutCompany/glass.svg",
-      "hop": "/images/aboutCompany/hop.svg",
+      "glass": "images/aboutCompany/glass.svg",
+      "hop": "images/aboutCompany/hop.svg",
       "manWithGlass": {
-        "src": "/images/img/man_with_glass.jpg"
+        "src": "images/img/man_with_glass.jpg"
       }
     }
   }

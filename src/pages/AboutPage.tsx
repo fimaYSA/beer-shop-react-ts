@@ -14,7 +14,7 @@ export function AboutPage() {
         <WhyUs />
       </Background>
       <Delivery />
-      <HowToBuy/>
+      <HowToBuy />
     </>
   )
 }

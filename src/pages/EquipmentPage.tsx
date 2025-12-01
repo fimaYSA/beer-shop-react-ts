@@ -19,12 +19,12 @@ export function EquipmentPage() {
       <div className='flex flex-wrap justify-center gap-3.75 bg-white lg:gap-7.5'>
         <img
           className='w-full max-w-[540px] shrink'
-          src='/images/equipment_page/shop_1.jpg'
+          src={`${import.meta.env.BASE_URL}images/equipment_page/shop_1.jpg`}
           alt=''
         />
         <img
           className='w-full max-w-[540px] shrink'
-          src='/images/equipment_page/shop_2.jpg'
+          src={`${import.meta.env.BASE_URL}images/equipment_page/shop_2.jpg`}
           alt=''
         />
       </div>

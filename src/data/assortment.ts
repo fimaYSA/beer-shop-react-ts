@@ -1,31 +1,31 @@
 export const assortment = {
   title: 'Наш ассортимент',
   image: {
-    backgroundImage: '/images/background/wood.jpg',
-    hop: '/images/assortment/hop.png',
-    rye: '/images/assortment/rye.png',
-    beerOnTop: '/images/assortment/beer-on-top.png',
+    backgroundImage: 'images/background/wood.jpg',
+    hop: 'images/assortment/hop.png',
+    rye: 'images/assortment/rye.png',
+    beerOnTop: 'images/assortment/beer-on-top.png',
   },
   svgArray: [
     {
       name: 'Пиво',
-      svgImg: '/images/assortment/beer.svg',
+      svgImg: 'images/assortment/beer.svg',
     },
     {
       name: 'Пивные напитки',
-      svgImg: '/images/assortment/beer-drink.svg',
+      svgImg: 'images/assortment/beer-drink.svg',
     },
     {
       name: 'Сидр',
-      svgImg: '/images/assortment/cider.svg',
+      svgImg: 'images/assortment/cider.svg',
     },
     {
       name: 'Квас',
-      svgImg: '/images/assortment/bottleAndGlass.svg',
+      svgImg: 'images/assortment/bottleAndGlass.svg',
     },
     {
       name: 'Лимонад',
-      svgImg: '/images/assortment/lemonade.svg',
+      svgImg: 'images/assortment/lemonade.svg',
     },
   ],
 }

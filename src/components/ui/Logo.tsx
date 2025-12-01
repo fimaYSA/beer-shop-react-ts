@@ -22,7 +22,7 @@ export function Logo({ direction }: OwnProps) {
   return (
     <NavLink to={PATHS.Home} className={'z-10'}>
       <div className={direct + ' flex'}>
-        <img className={heightImg} src='/images/logo.svg' alt='logo' />
+        <img className={heightImg} src={`${import.meta.env.BASE_URL}images/logo.svg`} alt='logo' />
         <p className='font-Roboto uppercase'>Wunderbeer</p>
       </div>
     </NavLink>
