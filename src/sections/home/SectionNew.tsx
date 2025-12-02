@@ -22,7 +22,7 @@ export function SectionNew() {
         relative'
       style={{ backgroundImage: `url(${whyUs.background.paper_BG})` }}
     >
-      <TitleSection title={newBeerData.title} color='#000' position='center' />
+      <TitleSection title={newBeerData.title} position='center' />
       <p
         className='mt-1.75 md:mt-4.75 mb-8 md:mb-7 font-normal text-base leading-4.75 sm:text-[22px]
           sm:leading-6.5'

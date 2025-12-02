@@ -46,7 +46,7 @@ export function SectionAboutCompany() {
             className='max-w-135 px-3.75 pt-11.25 pb-12.5 text-sm leading-5.75 font-light
               tracking-wide lg:pt-10 lg:text-base 2xl:px-0'
           >
-            <TitleSection title={data.title} color='' position='start' />
+            <TitleSection title={data.title} position='start' />
             <div className='mt-3 mb-6.5 tracking-normal lg:mt-4.5'>
               {data.description.map((p, i) => {
                 return <p key={i}>{p}</p>

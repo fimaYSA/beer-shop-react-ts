@@ -8,7 +8,7 @@ export function SectionWhyUs() {
         style={{ backgroundImage: `url(${whyUs.background.paper_BG})` }}
         className='bg-no-repeat bg-center bg-cover pt-9 md:pt-14 pb-19 md:pb-32.75'
       >
-        <TitleSection title={whyUs.title} color='#000' position='center' />
+        <TitleSection title={whyUs.title} position='center' />
         <div
           className='flex flex-wrap gap-y-13.75 gap-x-8 lg:gap-25 justify-center mt-3.25
             lg:mt-11.75'

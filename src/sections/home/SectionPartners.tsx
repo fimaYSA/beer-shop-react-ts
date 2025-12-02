@@ -22,7 +22,7 @@ export function SectionPartners() {
         pb-16.75'
       style={{ backgroundImage: `url(${whyUs.background.paper_BG})` }}
     >
-      <TitleSection title={ourPartnersData.title} color='#000' position='center' />
+      <TitleSection title={ourPartnersData.title} position='center' />
 
       <div
         ref={viewportRef}
