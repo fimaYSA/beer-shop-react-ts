@@ -31,7 +31,9 @@ export const Delivery = () => (
           вашего заказа.
         </p>
       </div>
-      <FormAnyQuestions />
+      <div className='flex-shrink-0'>
+        <FormAnyQuestions />
+      </div>
     </div>
   </Background>
 )
